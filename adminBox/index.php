@@ -29,5 +29,5 @@
     </form>
   </div>
 </div>
-<?php include("includes/layouts/htmlEnd.php"); ?>
+<?php include("../includes/layouts/htmlEnd.php"); ?>
 

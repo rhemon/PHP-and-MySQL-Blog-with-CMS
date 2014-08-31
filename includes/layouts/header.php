@@ -12,11 +12,11 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
-  <link rel="stylesheet" type="text/css" href="/PHP - Blog with Admin/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="/PHP - Blog with Admin/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/main.css" />
 
   <!-- JavaScript -->
-  <script src="/PHP - Blog with Admin/js/respond.min.js"></script>
+  <script src="../../js/respond.min.js"></script>
 </head>
 <body>
   <!-- Body Content -->
