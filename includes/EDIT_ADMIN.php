@@ -11,8 +11,6 @@ if (isset($_GET['editId'])){
   $result = mysqli_query($conn, $sql);
   confirmQuery($result);
   $row = mysqli_fetch_assoc($result);
-  // echo $row['userName'];
-  
 }
 ?>
 <form method="post" action="CHECK_ADMIN_UPDATE.php" role="form">

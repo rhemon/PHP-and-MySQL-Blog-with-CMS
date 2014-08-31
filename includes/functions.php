@@ -65,12 +65,6 @@ function checkUserName($url, $conn) {
   $location = "./$url.php";
   
   if (isset($_POST['usrname'])) {
-    
-    // if (mysqli_ping()) {
-    //   echo "CONNECTION OK!";
-    // } else {
-    //   echo "CONNECTION IS NOT WORKING!";
-    // }
     $newUserName = $_POST['usrname'];
     if ($_POST['oldUserName'] !== $newUserName) { 
       $sql = "SELECT * FROM `blogAdmin`.`adminUser` WHERE userName='$newUserName'";

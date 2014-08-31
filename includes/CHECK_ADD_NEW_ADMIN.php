@@ -12,9 +12,7 @@ $adminPass = checkPasswordMatch('ADD_ADMIN', $conn);
 <?php
 $adminPassword = $_POST['apass'];
 $sql = "SELECT * FROM `blogAdmin`.`adminUser` WHERE userName='admin'";
-// echo "I AM HERE !";
 $result = mysqli_query($conn, $sql);
-// print_r($result);
 confirmQuery($result);
 $row = mysqli_fetch_assoc($result);
 if ($adminPassword === $row['userPass']){
