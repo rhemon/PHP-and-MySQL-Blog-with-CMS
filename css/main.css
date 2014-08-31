@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+#adminInForm {
+  padding-top: 1%;
+  padding-left: 2%;
+}
+
+#adminOptions {
+  padding-left: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+#post {
+  height: 500px;
+}
+
+.nav .btn-info {
+  color: black;
+}
